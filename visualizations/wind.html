@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Wind Speed</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand order-1 mx-3" href="../index.html">Latitude</a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- PUT AN UNORDERED LIST INSIDE OF A COLLAPSE DIV -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav ml-auto icon-bar">
+          <!-- CREATE DROPDOWN MENUS -->
+          <li class="nav-item dropdown">
+            <!-- TOP LEVEL DROPDOWN -->
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <!-- ONE DIVISION IN THE DROPDOWN -->
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind.html">Wind Speed</a>
+            </div>
+          </li>
+
+          <!-- FIRST ITEM IN NAVBAR -->
+          <li class="nav-item">
+            <a class="nav-link" href="../comparison.html">Comparison</a>
+          </li>
+          <!-- ANOTHER ONE -->
+          <li class="nav-item">
+            <a class="nav-link" href="../data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> <!-- /NAVBAR -->
+
+  <!-- CONTAINER -->
+  <div class="container-fluid">
+    <!-- ROW -->
+    <div class="row">
+
+      <!-- SUMMARY -->
+      <div class="col-lg-7 colb">
+        <h1 class="mb-1">Wind Speed</h1>
+        <hr>
+        <img class="img-fluid center" src="../Resources/assets/images/Wind Speed.png" alt="vs. Max temperature">
+        <p class="pt-3 mr-4">Wind speeds of up to 15 mph are almost equally spread. Some places with speeds above 25 mph
+          are found at latitudes below -40 degrees and above 40 degrees. Correlation between latitude and wind speed is
+          weak in both hemispheres.</p>
+      </div> <!-- /SUMMARY -->
+
+      <!-- VISUALIZATIONS -->
+      <div class="col-lg colb ml-3">
+        <h3 class="pb-4">Visualizations</h3>
+        <hr>
+        <div class="row justify-content-center">
+
+          <div class="col-lg-6 col-sm-3">
+            <figure class="figure">
+              <a href="temp.html">
+                <img class="figure-img img-fluid rounded  " src="../Resources/assets/images/Max Temp.png"
+                  alt="vs. Max Temp">
+              </a>
+              <figcaption class="figure-caption text-center">Max Temp</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-lg-6 col-sm-3">
+            <figure class="figure">
+              <a href="humidity.html">
+                <img class="figure-img img-fluid rounded" src="../Resources/assets/images/Humidity.png"
+                  alt="vs. Humidity">
+              </a>
+              <figcaption class="figure-caption text-center">Humidity</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-lg-6 col-sm-3">
+            <figure class="figure">
+              <a href="cloud.html">
+                <img class="figure-img img-fluid rounded" - src="../Resources/assets/images/Cloudiness.png"
+                  alt="vs. Cloudiness">
+              </a>
+              <figcaption class="figure-caption text-center">Cloudiness</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-lg-6 col-sm-3">
+            <figure class="figure fig-highlight">
+              <a href="wind.html">
+                <img class="figure-img img-fluid rounded" src="../Resources/assets/images/Wind Speed.png"
+                  alt="vs. Wind Speed">
+              </a>
+              <figcaption class="figure-caption text-center">Wind Speed</figcaption>
+            </figure>
+          </div>
+
+        </div> <!-- /ROW for FIGURES -->
+      </div> <!-- /VISUALIZATIONS -->
+    </div><!-- /ROW -->
+  </div><!-- /CONTAINER -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

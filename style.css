@@ -1,0 +1,97 @@
+
+body{
+  background-color: rgb(114, 114, 179);
+}
+
+h1, h3, h5{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: midnightblue;
+  font-weight: 700;
+}
+
+p{
+  color: midnightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+h6{
+  color: midnightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+figcaption{
+  color: rgb(11, 11, 54);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold; 
+  }
+
+.navbar-header a:hover {
+    font-weight: bold !important;
+     color: rgb(197, 197, 235) !important;
+  }
+
+  .navbar-custom { 
+    background-color: rgb(237, 237, 252) !important; 
+  }
+
+.navbar-header{
+    background-color: rgb(49, 49, 219) !important;
+  }
+   
+.dropdown-toggle[aria-expanded="true"] {
+    background-color: rgb(154, 154, 231) !important;
+  }
+  
+.icon-bar{
+    background-color: rgb(237, 237, 252);
+    font-weight: 500;
+  }
+
+.icon-bar a:hover {
+    font-weight: bold;
+    color: black ;
+}
+
+.row {
+  margin-top: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+  
+hr{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.fig-highlight{
+  width: 100%;
+  height: 95%;
+  border: 1px solid blue;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.colb {
+  min-height: 50px;
+  padding: 30px 20px 10px 20px;
+  margin: 30px 10px 10px 10px;
+  font-weight: 400;
+  color:  rgb(23, 65, 62);
+  background-color: rgb(237, 237, 252);
+}
